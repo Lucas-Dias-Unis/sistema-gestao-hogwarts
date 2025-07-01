@@ -51,6 +51,60 @@ Hi, OOP World in PHP!
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
+## Integrantes da Equipe
+
+-   Lucas Dias
+-   Kauan Gonçalves
+-   Davi Gomes
+-   Carlos Alberto
+-   João Pedro
+-   Erick
+
+## Descrição dos Módulos Implementados
+
+O sistema foi dividido em seis módulos principais, cada um com responsabilidades específicas:
+
+-   **Módulo 1: Convite e Cadastro de Alunos**
+    -   Automatiza o envio de cartas-convite para novos alunos, permite a confirmação de participação e a visualização do status dos convites.
+
+-   **Módulo 2: Seleção de Casas**
+    -   Gerencia a cerimônia do Chapéu Seletor, associando alunos a uma das quatro casas (Grifinória, Sonserina, Corvinal, Lufa-Lufa) e permitindo a consulta da distribuição de alunos.
+
+-   **Módulo 3: Gerenciamento de Torneios e Competições**
+    -   Permite a criação de torneios, a inscrição de alunos e o cálculo automático de pontos para a Copa das Casas, com geração de rankings.
+
+-   **Módulo 4: Controle Acadêmico e Disciplinar**
+    -   Possibilita o registro de notas pelos professores, a consulta de boletins pelos alunos e a aplicação de bônus ou penalidades de pontos às casas.
+
+-   **Módulo 5: Gerenciamento de Professores e Funcionários**
+    -   Centraliza o cadastro de professores, associando-os a disciplinas e permitindo que consultem seus cronogramas de aulas.
+
+-   **Módulo 6: Sistema de Alertas e Comunicação**
+    -   Moderniza a comunicação interna com um sistema de notificações digitais para envio de alertas em tempo real ou comunicados agendados.
+
+## Instruções de Execução
+
+Para executar este projeto, você precisará ter o [PHP](https://www.php.net/) e o [Composer](https://getcomposer.org/) instalados em sua máquina.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone <URL_DO_SEU_REPOSITORIO>
+    cd hogwarts-sistema
+    ```
+
+2.  **Instale as dependências:**
+    O Composer irá gerar o arquivo `autoload.php`, essencial para carregar as classes do projeto automaticamente.
+    ```bash
+    composer install
+    ```
+
+3.  **Execute a simulação:**
+    O arquivo `app.php` contém um script que simula o funcionamento integrado de todos os módulos. Para executá-lo, utilize o seguinte comando no seu terminal:
+    ```bash
+    php app.php
+    ```
+
+
 
 ## 🇺🇸 English
 
